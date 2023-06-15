@@ -12,7 +12,7 @@ model_path = 'Main-model=2023-06-13_00-13-47-0.9620.pth'
 model = selfDefineVgg(cfgs, 'A', True, 11)
 model = model.to(device)
 state_dict = torch.load(model_path)
-model.load_state_dict(state_dict=state_dict)
+model.load_state_dict(state_dict=state_dict,map_location=torch.device('cpu'))
 
 upload= st.file_uploader('Insert image for classification', type=['jpg',"jpeg"])
 c1, c2= st.columns(2)

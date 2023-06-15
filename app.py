@@ -33,87 +33,87 @@ if upload is not None:
         col1,col2,col3 = st.columns(3)
         if class_name == "Ankle Boot":
             with col1:
-                st.image(r"Ankle Boot\1001.jpg")
+                st.image(r"Ankle Boot/1001.jpg")
             with col2:
-                st.image(r"Ankle Boot\1002.jpg")
+                st.image(r"Ankle Boot/1002.jpg")
             with col3:
-                st.image(r"Ankle Boot\1003.jpg")
+                st.image(r"Ankle Boot/1003.jpg")
         
         if class_name == "Bag":
             with col1:
-                st.image(r"Bag\901.jpg")
+                st.image(r"Bag/901.jpg")
             with col2:
-                st.image(r"Bag\902.jpg")
+                st.image(r"Bag/902.jpg")
             with col3:
-                st.image(r"Bag\903.jpg")
+                st.image(r"Bag/903.jpg")
         
         if class_name == "Coat":
             with col1:
-                st.image(r"Coat\801.jpg")
+                st.image(r"Coat/801.jpg")
             with col2:
-                st.image(r"Coat\804.jpg")
+                st.image(r"Coat/804.jpg")
             with col3:
-                st.image(r"Coat\803.jpg")
+                st.image(r"Coat/803.jpg")
         
         if class_name == "Dress":
             with col1:
-                st.image(r"Dress\701.jpg")
+                st.image(r"Dress/701.jpg")
             with col2:
-                st.image(r"Dress\702.jpg")
+                st.image(r"Dress/702.jpg")
             with col3:
-                st.image(r"Dress\703.jpg")
+                st.image(r"Dress/703.jpg")
         
         if class_name == "Hat":
             with col1:
-                st.image(r"Hat\601.jpg")
+                st.image(r"Hat/601.jpg")
             with col2:
-                st.image(r"Hat\602.jpg")
+                st.image(r"Hat/602.jpg")
             with col3:
-                st.image(r"Hat\603.jpg")
+                st.image(r"Hat/603.jpg")
         
         if class_name == "Pullover":
             with col1:
-                st.image(r"Pullover\501.jpeg")
+                st.image(r"Pullover/501.jpeg")
             with col2:
-                st.image(r"Pullover\502.jpeg")
+                st.image(r"Pullover/502.jpeg")
             with col3:
-                st.image(r"Pullover\503.jpeg")
+                st.image(r"Pullover/503.jpeg")
         
         if class_name == "Sandal":
             with col1:
-                st.image(r"Pullover\402.jpg")
+                st.image(r"Pullover/402.jpg")
             with col2:
-                st.image(r"Pullover\404.jpg")
+                st.image(r"Pullover/404.jpg")
             with col3:
-                st.image(r"Pullover\405.jpg")
+                st.image(r"Pullover/405.jpg")
                 
         if class_name == "Shirt":
             with col1:
-                st.image(r"Shirt\301.jpg")
+                st.image(r"Shirt/301.jpg")
             with col2:
-                st.image(r"Shirt\302.jpg")
+                st.image(r"Shirt/302.jpg")
             with col3:
-                st.image(r"Shirt\303.jpg")
+                st.image(r"Shirt/303.jpg")
                 
         if class_name == "Sneaker":
             with col1:
-                st.image(r"Sneaker\203.jpg")
+                st.image(r"Sneaker/203.jpg")
             with col2:
-                st.image(r"Sneaker\206.jpg")
+                st.image(r"Sneaker/206.jpg")
             with col3:
-                st.image(r"Sneaker\208.jpg")
+                st.image(r"Sneaker/208.jpg")
         if class_name == "Trousers":
             with col1:
-                st.image(r"Trousers\101.jpg")
+                st.image(r"Trousers/101.jpg")
             with col2:
-                st.image(r"Trousers\102.jpg")
+                st.image(r"Trousers/102.jpg")
             with col3:
-                st.image(r"Trousers\103.jpg")
+                st.image(r"Trousers/103.jpg")
                 
         if class_name == "Tshirt_Top":
             with col1:
-                st.image(r"Tshirt_Top\1.jpg")
+                st.image(r"Tshirt_Top/1.jpg")
             with col2:
-                st.image(r"Tshirt_Top\2.jpg")
+                st.image(r"Tshirt_Top/2.jpg")
             with col3:
-                st.image(r"Tshirt_Top\3.jpg")
+                st.image(r"Tshirt_Top/3.jpg")

@@ -41,5 +41,5 @@ test_transform = transforms.Compose([
     transforms.ToTensor(),
     ])
 
-test_csv = pd.read_csv(r"test\Hexacore-Test.csv")
+test_csv = pd.read_csv(r"test/Hexacore-Test.csv")
 test_set = FashionDataset(test_csv,transform=test_transform)

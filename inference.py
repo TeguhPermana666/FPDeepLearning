@@ -5,7 +5,7 @@ import torchvision.transforms as transforms
 from PIL import Image, ImageOps
 from torchvision.transforms import functional
 
-device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
+device = torch.device('cpu')
 print(device)
 
 # Show Function for image tensor

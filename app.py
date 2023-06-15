@@ -6,7 +6,7 @@ import random
 from Dataset import test_transform as transform_norm
 from model import VGG, cfgs, make_layers, selfDefineVgg
 
-device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
+device=torch.device('cpu')
 model_path = 'Main-model=2023-06-13_00-13-47-0.9620.pth'
 
 model = selfDefineVgg(cfgs, 'A', True, 11)
